@@ -12,13 +12,13 @@ console.log(peach)
 
 // TODO destructure the object to extract name and age of the person 
 const person = { 
-  name: 'abcde', 
+  first_name: 'abcde', 
   age: 10, 
   gender: 'm' 
 }; 
 
-const { name, age } = person;
-console.log(name)
+const { first_name, age } = person;
+console.log(first_name)
 console.log(age)
 
 //--------- Problem2 --------
