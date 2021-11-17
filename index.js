@@ -70,11 +70,10 @@ console.log(result2)
 
 function updateSalaries (employeesArray, percent){ 
   // TODO complete this 
-  let resultArray = []
-  resultArray = employeesArray.map((item) => item + (item/percent))
-  return resultArray
+  
+  return employeesArray.map((item) => item + (item/percent))
+  
 } 
   
 let employeesArray = [100,500,700,400], percent = 10 
-result = updateSalaries(employeesArray, percent)
-console.log(result)
+console.log(updateSalaries(employeesArray, percent))
