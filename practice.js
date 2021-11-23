@@ -79,7 +79,7 @@ if(num>0){
 
 
 // ------ Simple Calculator-------
-let oper = prompt('Enter Operator')
+let oper = prompt('Enter Operator (either +, -, * or /): ')
 let num1=16, num2=9
 let result=0
 
